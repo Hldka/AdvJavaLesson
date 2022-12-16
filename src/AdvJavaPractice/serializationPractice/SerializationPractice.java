@@ -8,7 +8,7 @@ public class SerializationPractice {
     public static void main(String[] args) {
 
         //writeObject();
-       readObject();
+       //readObject();
 
     }
 

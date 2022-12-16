@@ -60,5 +60,10 @@ public class MainTest {
             System.out.println("other transaction");
         }
 
+        //Not: Enum yapiya has metodlar
+        System.out.println("Enum name "+transactionType.name());//Enum ismini ekrana yazdi
+        System.out.println("Enum Coder Value : "+transactionType.getTransactionCode());//numeric deger
+        System.out.println("Enum Ordinal :"+transactionType.ordinal());
+
     }
 }
