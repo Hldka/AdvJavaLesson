@@ -5,7 +5,7 @@ public enum Role {
     ROLE_TEACHER("teacher"),
     ROLE_STUDENT("student");
 
-    String name;
+   private final String name;
 
     Role(String name){
         this.name =name;
