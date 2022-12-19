@@ -1,6 +1,7 @@
 package AdvJavaPractice.generics.interfaces;
 
-public class Student {String name;
+public class Student {
+    String name;
 
     public Student(String name) {
         this.name = name;
@@ -11,6 +12,7 @@ public class Student {String name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 }
