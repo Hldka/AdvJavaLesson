@@ -39,7 +39,9 @@ public class ThreadPool {
         service.execute(thread8);
         service.execute(thread9);
         service.execute(thread10);
+
         service.shutdown();//thread havuzundaki threadler beklemeye devam eder
+
 
 
     }
